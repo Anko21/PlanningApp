@@ -10,11 +10,11 @@ const ExistingList = (props) => {
 
   return (
     <div className='box'>
-      <FontAwesomeIcon
+      {/* <FontAwesomeIcon
         icon={faThumbTack}
         className='pin'
         ize="xl"
-      />
+      /> */}
       {!props.editMode ?
         <ReadOnlyList
         allTodos={props.allTodos}
